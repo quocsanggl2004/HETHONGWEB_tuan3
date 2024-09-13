@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai2</title>
+    <style>
+    * {
+    margin: auto;
+    
+    box-sizing: border-box;
+   
+    }
+    #container
+    {
+        width: 900px;
+        height: 550px;
+     
+        border: 2px solid black;
+    }
+    #k2
+    {
+        width: 100%;
+        height: 15%;
+        background-color: rgb(41,78,121);
+        /* display: flex; */
+        
+    }
+    #k2_2
+    {
+        width: 30%;
+        float: left;
+        margin-top: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        color: aliceblue;
+    }
+    #k2_
+    {
+        width: 63%;
+        height: 100%;
+        float: right;
+    }
+    #k2 img{
+       width: 60px;float: left;
+    }
+    #k2_1
+    {
+        width: 100%;
+        height: 40%;
+        padding-top: 5px;
+        margin-right: 0;
+        /* background-color: aqua; */
+    }
+    #k2_1>button{
+        float: right; margin-right: 10px;
+    }
+    #k2_1>input{
+       float: right;margin-right: 10px;
+    }
+    #k2_3
+    {
+        width: 100%;
+        
+        
+        height: 60%;
+        /* background-color: rgb(106, 129, 129); */
+    }
+    #k2_3 ul>li
+    {
+        display: inline;
+        list-style: none;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        /* border: 2px solid blue; */
+        background-color: rgb(82, 82, 136);
+        /* justify-content: space-between; */
+    }
+    #k2_3 ul>li :hover
+    {
+        color: aqua;
+    }
+    #k2_3 ul>li a
+    {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    }
+    #k2_3 ul{
+        padding-top: 15px;
+        margin-left: -30px;
+        
+    }
+    #k3
+    {
+        width: 100%;
+        height: 80%;
+        
+    }
+    #k5
+    {
+        float: left;
+        width: 65%;
+        height: 100%;
+        /* background-color: aquamarine; */
+        padding-left: 10px;
+    }
+    #k7
+    {
+        float: left;
+        width: 60%;
+        height: 90%;
+        /* background-color: aqua; */
+    }
+    #k8
+    {
+        float: left;
+        width: 40%;
+        height: 90%;
+        /* background-color: aquamarine; */
+        padding-left: 30px;
+        color: gray;
+        font-size: 15px;
+    }
+    #k6
+    {
+        margin-top: 28px;
+        float: left;
+        width: 30%;
+        
+        background-color: rgb(238, 241, 241);
+        padding-top: 30px;
+        padding-left: 30px;
+        margin-left: 30px;
+    }
+    #txt
+    {
+        padding-top: 15px;
+    }
+    #k4
+    {
+        float: left;
+        height: 5%;
+        width: 100%;
+        background-color: rgb(77, 77, 98);
+        color: aliceblue;
+        padding-top: 5px;
+        padding-left: 5px;
+        font-size: 12px;
+    }
+        </style>
+</head>
+<body>
+    <div id="container">
+
+        <div id="k2">
+            <img src="..//img/Bai2/flower.png" alt="">
+                <div id="k2_2">
+                <h1>FlowerBox <sub>3</sub>60</h1>
+                <span>...to get your daily dose of luxury roses!</span>
+                </div>
+            <div id="k2_">
+            <div id="k2_1">
+                <button>GO</button>
+            <input type="text" placeholder="Search the site...">
+        </div>
+             <div id="k2_3">  
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Promotion</a></li>
+                <li><a href="#">Gift Baskets</a></li>
+                <li><a href="#">Flower Services</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            </div> 
+            
+        </div>
+        </div>
+        <!-- 
+
+         -->
+         <div id="k3">
+            <div id="k5">
+                
+                    <h3 style="border-bottom: 2px dotted black;padding-top: 20px;
+                    color: rgb(172, 173, 138);padding-left: 0;">Why Not Contact Us Today!</h3>
+                <div id="k7">
+                    <p style="font-size: 16px;padding-top: 10px;
+                    color: red;text-shadow: 2px 2px 7px green;
+                    font-style: italic;font-family: Arial, Helvetica, sans-serif;">For FlowerBox 360 shopers, that means not only can you send your friends and loves ones the highest
+                        quality flowers found on online, but that you can do so at a great value.
+                    </p>
+                    <br>
+                    <table >
+                        <tr>
+                            <td width="100px">Name:</td>
+                            <td width="100px">Email:</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="name"></td>
+                            <td><input type="email" name="" id="email"></td>
+                        </tr>
+                        <tr>
+                            <td>Telephone:</td>
+                            <td>Subject:</td>
+                        </tr>
+                        <tr>
+                            <td> <input type="number" name="" id="phone"></td>
+                            <td><input type="text" name="" id="sub"></td>
+                        </tr>
+                        <tr>
+                            <td>Message:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td  colspan="2">
+                                <textarea style="width: 350px;" name="" id="message" cols="30" rows="6"></textarea>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td><input type="submit" class="btn">
+                                <input type="reset" name="" id="" class="btn"></td>
+                        </tr>
+                    </table>
+    
+                </div>
+
+                <div id="k8">
+                    <h3 style="padding-top:10px ;border-bottom: 2px dotted gray;padding-bottom: 10px;">FlowerBox 360 Info!</h3>
+                    <div id="txt">
+                        Openationg Hours: <br>
+                        Monday-Friday:9:000am-5:00pm <br>
+                        Saturday:9:00am-1.00pm. <br>
+                        Sunday:CLosed (No Deliveries) <br>
+                        ORDER ONLINE 24/7 <br>
+                    </div>
+    
+                    <div id="txt">
+                        Software Engineering Dept.  <br>
+                        Information Technology Faculty <br>
+                        First Floor, H Building <br>
+                    </div>
+    
+                    <div id="txt">
+                        12 Nguyen Van Bao, Ward 4, <br>
+                        Go Vap District, Ho Chi Minh City <br>
+                        Tel: 0283.8940 390 <br>
+                        Fax: 0283.9940 954 <br>
+                    </div>
+                </div>
+            </div>
+
+            <div id="k6">
+                <h3>Discounts & Specials</h3>
+                <br>
+            <img style="width: 200px; border: 2px solid gainsboro;padding: 5px;" src="../img/Bai2/rose.png" alt="">
+            <br>
+            <p>FlowerBox 360 offers many great discounts throught the year, 
+                from coupons and coupon codes, to promo codes and other savings. We also offer military flower discounts to our wonderfull troppps!</p>
+            <a style="padding-left: 120px;" href="#">Read more>></a>
+            <br>
+            </div>
+         </div>
+         <!-- 
+
+          -->
+          <div id="k4">
+            Copyright &copy; 2017 - All Rights Reserved -
+             <span style="color: rgb(183, 183, 233);">Software Engineering Department - Induustrial University of Ho Chi Minh City</span>
+          </div>
+
+    </div>
+</body>
+</html>
